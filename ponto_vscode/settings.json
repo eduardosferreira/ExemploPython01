@@ -1,0 +1,27 @@
+{
+    "python.defaultInterpreterPath":"C:\\Users\\Kyros\\VsProjects\\UdemyPhyton3LuizOtavio\\venv\\Scripts\\python.exe",
+    "code-runner.executorMap": {
+        "python": "C:\\Users\\Kyros\\VsProjects\\UdemyPhyton3LuizOtavio\\venv\\Scripts\\python.exe",
+       },
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    //false
+    "python.linting.mypyEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.testing.unittestEnabled": true,
+    // true
+    "[python]": {
+        "editor.formatOnSave": false//true
+    },
+    "window.zoomLevel": 1,
+    "editor.fonteSize": 10,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "git.ignoreLimitWarning": true
+ }
